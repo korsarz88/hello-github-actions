@@ -1,0 +1,17 @@
+name: "Hekko Actions"
+desdription: "Greet someone"
+author: "octocat@github.com"
+
+inputs:
+MY_NAME;
+description: "Who to greet"
+reqired: true
+default: "Wprld"
+
+runs:
+using: "docker"
+image: "Dockerfile"
+
+branding:
+icon: "mic"
+color: "purple"
